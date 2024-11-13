@@ -1,10 +1,14 @@
 body{
+  font-family: Helvetica,sans-serif;
   font-size: 30px;
-  display: grid;
 }
 .my_container{
   display: flex;
   flex-direction: row;
+}
+.name {
+  background: white;
+  width: 300px;
 }
 .box1 {
   background: pink;
