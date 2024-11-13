@@ -1,0 +1,29 @@
+body{
+  font-size: 30px;
+  display: grid;
+}
+.my_container{
+  display: flex;
+}
+.box1 {
+  background: pink;
+  width: 300px;
+}
+
+.box2 {
+  background: lightgreen;
+  width: 300px;
+}
+
+.box3 {
+  background: lightblue;
+  width: 300px;
+}
+.box4 {
+  background: yellow;
+  width: 300px;
+}
+.box5 {
+  background: orange;
+  width: 300px;
+}
