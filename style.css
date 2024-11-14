@@ -35,6 +35,6 @@ a{
 }
 .slides img {
   display: block;
-  width: 90vmin;
+  width: 90vw;
   margin: auto;
 }
