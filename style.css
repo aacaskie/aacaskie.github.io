@@ -15,18 +15,18 @@ a{
 }
 .gallery {
   justify-content: center;
-   margin: auto;
+  margin: auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;;
   grid-template-rows: 1fr 1fr;
   gap: 10px;
 }
 .name {
-  margin-left: 5vw;
-  margin-right: 35vw;
+  margin-left: 5%;
+  margin-right: 35%;
 }
 .box {
-  margin-right: 3vw;
+  margin-right: 3%;
 }
 
 .slides img {
