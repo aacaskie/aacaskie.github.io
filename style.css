@@ -1,6 +1,6 @@
 body{
   font-family: Helvetica,sans-serif;
-  font-size: 1.5vw;
+  font-size: 2vw;
  
 }
 .my_container{
@@ -34,7 +34,6 @@ margin-right: 3%;
   
   display: block;
   width: 80vw;
-  max-width: 100%;
+ 
   margin: auto;
 }
-
