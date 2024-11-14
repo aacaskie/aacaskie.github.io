@@ -13,28 +13,32 @@ a{
   flex-direction: row;
   margin-bottom: 8vh;
 }
+.gallery {
+  justify-content: center;
+   margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+}
 .name {
   margin-left: 5%;
   margin-right: 35%;
 }
-.box1 {
+.box {
   margin-right: 3%;
 }
 
-.box2 {
-  margin-right: 3%;
-}
-
-.box3 {
-  margin-right: 3%;
-}
-.box4 {
-  margin-right: 3%;
-}
-.box5 {
-}
 .slides img {
   display: block;
   width: 90%;
   margin: auto;
+}
+.gslides img {
+  width: 100%;
+}
+.imgText{
+  font-family: Times, serif;
+  font-size: 0.75vw;
+  text-align: center;
 }
