@@ -22,11 +22,11 @@ a{
   gap: 10px;
 }
 .name {
-  margin-left: 5%;
-  margin-right: 35%;
+  margin-left: 5vw;
+  margin-right: 35vw;
 }
 .box {
-  margin-right: 3%;
+  margin-right: 3vw;
 }
 
 .slides img {
