@@ -1,34 +1,40 @@
 body{
   font-family: Helvetica,sans-serif;
-  font-size: 30px;
+  font-size: 1.5vw;
+ 
 }
 .my_container{
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 50% 10% 10% 10% 10% 10%;
+ 
+  justify-content: center;
+  align-items: center;
 }
 .name {
-  background: white;
-  width: 300px;
+  margin-left: 10%;
 }
 .box1 {
-  background: pink;
-  width: 300px;
 }
 
 .box2 {
-  background: lightgreen;
-  width: 300px;
+ 
 }
 
 .box3 {
-  background: lightblue;
-  width: 300px;
+  
 }
 .box4 {
-  background: yellow;
-  width: 300px;
+
 }
 .box5 {
-  background: orange;
-  width: 300px;
+    
+}
+.splashimage img{
+  background: #D99CD5;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 5%;
+  margin-left: 50%;
+  margin-right: 50%;
 }
