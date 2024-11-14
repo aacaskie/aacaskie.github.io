@@ -32,9 +32,6 @@ body{
 .splashimage img{
   background: #D99CD5;
   max-width: 100%;
-  height: auto;
   display: block;
-  margin-top: 5%;
-  margin-left: 50%;
-  margin-right: 50%;
+  margin: auto;
 }
