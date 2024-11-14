@@ -29,6 +29,6 @@ body {
 }
 .slides img {
   display: block;
-  width: 90%;
+  width: 90vmin;
   margin: auto;
 }
