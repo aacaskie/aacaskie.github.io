@@ -7,6 +7,12 @@ body {
   flex-direction: row;
   margin-bottom: 8vh;
 }
+a{
+  font-family: Helvetica, sans-serif;
+  font-size: 2vw;
+  text-decoration: none;
+  color: black;
+}
 .name {
   margin-left: 5%;
   margin-right: 35%;
