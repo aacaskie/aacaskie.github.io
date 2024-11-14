@@ -14,7 +14,6 @@ a{
   margin-bottom: 8vh;
 }
 .gallery {
-  justify-content: center;
   margin: auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;;
