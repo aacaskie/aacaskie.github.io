@@ -20,6 +20,12 @@ a{
   grid-template-rows: 1fr 1fr;
   gap: 10px;
 }
+ @media(max-width: 500px){
+    .gallery{
+      display: flex;
+      flex-direction: column;
+    }
+  }
 .name {
   margin-left: 5%;
   margin-right: 35%;
