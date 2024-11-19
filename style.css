@@ -41,6 +41,7 @@ a{
 }
 .box {
   margin-right: 3%;
+  cursor: pointer;
 }
 /* dropdown*/
 .dropbtn {
