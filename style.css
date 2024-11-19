@@ -42,7 +42,7 @@ a{
 .box {
   margin-right: 3%;
 }
-@media(max-width: 500px){
+@media(min-width: 500px){
   body {
   font-family: Helvetica, sans-serif;
   font-size: 3vw;
