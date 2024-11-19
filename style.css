@@ -49,6 +49,8 @@ a{
   font-size: 2vw;
   background: none;
   cursor: pointer;
+  margin-right: 3%;
+
 }
 
 .dropdown-content {
