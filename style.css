@@ -42,6 +42,34 @@ a{
 .box {
   margin-right: 3%;
 }
+/* dropdown*/
+.dropbtn {
+  font-family: Helvetica, sans-serif;
+  border: none;
+  font-size: 2vw;
+  background: none;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #e9e5e4;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.show {display:block;}
+/* media query*/
 @media(orientation: portrait){
   body {
   font-family: Helvetica, sans-serif;
