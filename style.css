@@ -20,19 +20,7 @@ a{
   grid-template-rows: 1fr 1fr;
   gap: 10px;
 }
- @media(max-width: 500px){
-    .gallery{
-      display: flex;
-      flex-direction: column;
-    }
-  }
-.name {
-  margin-left: 5%;
-  margin-right: 35%;
-}
-.box {
-  margin-right: 3%;
-}
+
 
 .slides img {
   display: block;
@@ -46,4 +34,34 @@ a{
   font-family: Times, serif;
   font-size: 0.75vw;
   text-align: center;
+}
+ .name {
+  margin-left: 5%;
+  margin-right: 35%;
+}
+.box {
+  margin-right: 3%;
+}
+@media(max-width: 500px){
+  body {
+  font-family: Helvetica, sans-serif;
+  font-size: 3vw;
+}
+  a{
+  font-family: Helvetica, sans-serif;
+  font-size: 3vw;
+  text-decoration: none;
+  color: black;
+}
+    .gallery{
+      display: flex;
+      flex-direction: column;
+    }
+  .name {
+  margin-left: 3%;
+  margin-right: 15%;
+}
+.box {
+  margin-right: 3%;
+}
 }
