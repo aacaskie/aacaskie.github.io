@@ -42,7 +42,7 @@ a{
 .box {
   margin-right: 3%;
 }
-@media(max-width: 627px){
+@media(orientation: portrait){
   body {
   font-family: Helvetica, sans-serif;
   font-size: 3vw;
