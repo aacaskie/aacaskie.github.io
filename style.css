@@ -2,7 +2,7 @@ body {
   font-family: Calibri, sans-serif;
   font-size: 2vw;
 }
-a{
+a {
   font-family: Calibri, sans-serif;
   font-size: 2vw;
   text-decoration: none;
@@ -13,7 +13,7 @@ a{
   flex-direction: row;
   margin-bottom: 8vh;
 }
-.gallery {  
+.gallery {
   margin: auto;
   position: relative;
 }
@@ -22,28 +22,17 @@ a{
   width: 90%;
   margin: auto;
 }
-.slider-wrapper {
-  overflow: hidden;
-}
-
-.slider {
-  position: relative;
-  display: flex;
-  transition: 0.5s;
-}
 .gslides img {
-  flex: 1 0 50%;
-  min-height: 100%;
+  width: 100%;
+  display: block;
 }
-.imgText{
-  color: #b0b0b0;
-  font-family: Calibri, sans-serif;
+.imgText {
+  font-family: Times, serif;
   font-size: 0.75em;
-  text-align: left;
-  margin-left: 5%;
-  line-height: 25px;
+  text-align: center;
+  line-height: 35px;
 }
- .name {
+.name {
   margin-left: 5%;
   margin-right: 60%;
 }
@@ -73,17 +62,16 @@ a{
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
-/* dropdown*/
+/* drop down*/
 .dropdown{
    margin-right: 3%;
 }
 .dropbtn {
+  font-family: Helvetica, sans-serif;
   border: none;
+  font-size: 2vw;
   background: none;
   cursor: pointer;
-  font-family: Calibri, sans-serif;
-  font-size: 2vw;
-  color: black;
 }
 
 .dropdown-content {
@@ -104,35 +92,3 @@ a{
 .dropdown-content a:hover {background-color: #ddd;}
 
 .show {display:block;}
-/* media query*/
-@media(orientation: portrait){
-  body {
-  font-family: Helvetica, sans-serif;
-  font-size: 3vw;
-}
-  a{
-  font-family: Helvetica, sans-serif;
-  font-size: 3vw;
-  text-decoration: none;
-  color: black;
-}
-    .gallery{
-      display: flex;
-      flex-direction: column;
-    }
-  .name {
-  margin-left: 3%;
-  margin-right: 15%;
-}
-  .dropdown{
-   margin-right: 3%;
-}
-.dropbtn {
-  border: none;
-  background: none;
-  cursor: pointer;
-  font-family: Calibri, sans-serif;
-  font-size: 2vw;
-  color: black;
-}
-}
