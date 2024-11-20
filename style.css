@@ -33,9 +33,10 @@ a{
   object-fit: cover;
 }
 .imgText{
+  color: #b0b0b0;
   font-family: Helvetica, sans-serif;
   font-size: 0.75em;
-  text-align: center;
+  text-align: left;
 }
  .name {
   margin-left: 5%;
@@ -92,11 +93,5 @@ a{
   .name {
   margin-left: 3%;
   margin-right: 15%;
-}
-.box {
-  margin-right: 3%;
-}
-  .dropdown{
-   margin-right: 3%;
 }
 }
