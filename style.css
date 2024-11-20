@@ -54,6 +54,9 @@ a{
   border: none;
   background: none;
   cursor: pointer;
+  font-family: Helvetica, sans-serif;
+  font-size: 2vw;
+  color: black;
 }
 
 .dropdown-content {
