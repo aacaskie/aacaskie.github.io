@@ -70,7 +70,7 @@ a {
    margin-right: 3%;
 }
 .dropbtn {
-  font-family: Helvetica, sans-serif;
+  font-family: Calibri, sans-serif;
   border: none;
   font-size: 2vw;
   background: none;
@@ -96,26 +96,3 @@ a {
 
 .show {display:block;}
 /* media query*/
-@media (orientation: portrait) {
-  body {
-    font-family: Helvetica, sans-serif;
-    font-size: 3vw;
-  }
-  a {
-    font-family: Helvetica, sans-serif;
-    font-size: 3vw;
-    text-decoration: none;
-    color: black;
-  }
-  .gallery {
-    display: flex;
-    flex-direction: column;
-  }
-  .name {
-    margin-left: 3%;
-    margin-right: 15%;
-  }
-  .box {
-    margin-right: 3%;
-  }
-}
