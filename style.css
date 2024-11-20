@@ -1,9 +1,9 @@
 body {
-  font-family: Helvetica, sans-serif;
+  font-family: Calibri, sans-serif;
   font-size: 2vw;
 }
 a{
-  font-family: Helvetica, sans-serif;
+  font-family: Calibri, sans-serif;
   font-size: 2vw;
   text-decoration: none;
   color: black;
@@ -34,7 +34,7 @@ a{
 }
 .imgText{
   color: #b0b0b0;
-  font-family: Helvetica, sans-serif;
+  font-family: Calibri, sans-serif;
   font-size: 0.75em;
   text-align: left;
 }
@@ -54,7 +54,7 @@ a{
   border: none;
   background: none;
   cursor: pointer;
-  font-family: Helvetica, sans-serif;
+  font-family: Calibri, sans-serif;
   font-size: 2vw;
   color: black;
 }
@@ -96,5 +96,16 @@ a{
   .name {
   margin-left: 3%;
   margin-right: 15%;
+}
+  .dropdown{
+   margin-right: 3%;
+}
+.dropbtn {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-family: Calibri, sans-serif;
+  font-size: 2vw;
+  color: black;
 }
 }
