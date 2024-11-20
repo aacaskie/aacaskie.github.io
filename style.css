@@ -23,10 +23,13 @@ a {
   margin: auto;
 }
 .gslides img {
-  width: 100%;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
   display: block;
 }
 .imgText {
+  color:#b0b0b0;
   font-family: Times, serif;
   font-size: 0.75em;
   text-align: center;
@@ -92,3 +95,27 @@ a {
 .dropdown-content a:hover {background-color: #ddd;}
 
 .show {display:block;}
+/* media query*/
+@media (orientation: portrait) {
+  body {
+    font-family: Helvetica, sans-serif;
+    font-size: 3vw;
+  }
+  a {
+    font-family: Helvetica, sans-serif;
+    font-size: 3vw;
+    text-decoration: none;
+    color: black;
+  }
+  .gallery {
+    display: flex;
+    flex-direction: column;
+  }
+  .name {
+    margin-left: 3%;
+    margin-right: 15%;
+  }
+  .box {
+    margin-right: 3%;
+  }
+}
