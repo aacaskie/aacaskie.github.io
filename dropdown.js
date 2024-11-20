@@ -18,30 +18,6 @@ window.onclick = function(event) {
   }
 }
 
-let slideIndex = 1;
-showSlides(slideIndex);
-
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-/*slide show code*/
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("gslides");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-}
 /* include html*/
 function includeHTML() {
   var z, i, elmnt, file, xhttp;
