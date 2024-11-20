@@ -52,7 +52,7 @@ const mod = (n, m) => (n % m + m) % m;
 
 els(".slider-wrapper").forEach(elPar => {
   const elSlider = el(".slider", elPar);
-  const elsItems = els(".item", elPar);
+  const elsItems = els(".gslides", elPar);
   const sub = +elPar.dataset.items ?? 1;
   const tot = Math.ceil(elsItems.length / sub);
   let c = 0;
