@@ -38,5 +38,5 @@ function showSlides(n) {
   for (i = 0; i < slides.length; i++) {
     slides[i] = '<span style="display:none">' + slides[i] + '</span>';
   }
-  slides[slideIndex - 1] = '<span style="display:block">' + slides[i] + '</span>';
+  slides[slideIndex - 1] = '<span style="display:block">' + slides[slideIndex -1] + '</span>';
 }
