@@ -3,11 +3,13 @@ showSlides(slideIndex);
 
 // Next/previous controls
 function plusSlides(n) {
+  console.log("minus");
   showSlides(slideIndex += n);
 }
 
 // Thumbnail image controls
 function currentSlide(n) {
+  console.log("plus");
   showSlides(slideIndex = n);
 }
 
