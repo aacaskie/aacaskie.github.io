@@ -9,10 +9,12 @@ console.log("starting");
 });
 
 
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
+function myFunctionPaint() {
+  document.getElementById("paint").classList.toggle("show");
 }
-
+function myFunctionSketch() {
+  document.getElementById("sketch").classList.toggle("show");
+}
 // Close the dropdown menu if the user clicks outside of it
 window.onclick = function(event) {
   if (!event.target.matches('.dropbtn')) {
