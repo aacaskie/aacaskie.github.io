@@ -17,7 +17,8 @@ a {
 .gallery {
   margin: auto;
   position: relative;
-  
+  height: 60vh;
+  width: 60vw;
 }
 .slides img {
   display: block;
@@ -30,7 +31,7 @@ a {
   margin-right: auto;
   object-fit: contain;
   display: block;
-  height: 70vh;
+  
   max-width: 100%;
 }
 .imgText {
@@ -67,10 +68,10 @@ a {
   background-color: rgba(0,0,0,0.4);
 }
 .prev {
-  left: 25%;
+  left: 10%;
 }
 .next {
-  right: 25%;
+  right: 10%;
 }
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
