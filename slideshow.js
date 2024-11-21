@@ -19,7 +19,7 @@ function showSlides(n) {
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
-  slides[slideIndex-1].style.display = "block";
+  slides[2].style.display = "block";
 }
 /* include html*/
 function includeHTML() {
