@@ -36,7 +36,7 @@ function showSlides(n) {
   if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
-    slides[i] = '<span style="display:none">' + slides[i] + '</span>';
+    slides[i].style.display = "none";
   }
-  slides[slideIndex - 1] = '<span style="display:block">' + slides[slideIndex -1] + '</span>';
+  slides[slideIndex-1].style.display = "block";
 }
