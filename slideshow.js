@@ -18,9 +18,11 @@ function showSlides(n) {
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
+    slides[2].style.display = "block";
   }
   slides[2].style.display = "block";
 }
+
 /* include html*/
 function includeHTML() {
   var z, i, elmnt, file, xhttp;
