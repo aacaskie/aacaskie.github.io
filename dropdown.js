@@ -15,6 +15,12 @@ function myFunctionPaint() {
 function myFunctionSketch() {
   document.getElementById("sketch").classList.toggle("show");
 }
+function myFunctionLink() {
+  document.getElementById("link").classList.toggle("show");
+}
+function myFunctionGame() {
+  document.getElementById("game").classList.toggle("show");
+}
 // Close the dropdown menu if the user clicks outside of it
 window.onclick = function(event) {
   if (!event.target.matches('.dropbtn')) {
