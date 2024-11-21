@@ -1,5 +1,9 @@
 /* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */
+let slideIndex = 1;
+showSlides(slideIndex);
+console.log("starting");
+
 function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
 }
@@ -17,8 +21,7 @@ window.onclick = function(event) {
     }
   }
 }
-let slideIndex = 1;
-showSlides(slideIndex);
+
 
 // Next/previous controls
 function plusSlides(n) {
@@ -38,7 +41,7 @@ function showSlides(n) {
   for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";
   }
- 
+   slides[slideIndex -1].style.display = "block";
 }
 /* include html*/
 function includeHTML() {
