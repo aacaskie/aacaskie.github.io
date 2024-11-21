@@ -1,8 +1,12 @@
 /* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */
 let slideIndex = 1;
-showSlides(slideIndex);
+
+document.addEventListener("DOMContentLoaded", function() {
+ showSlides(slideIndex);
 console.log("starting");
+});
+
 
 function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
