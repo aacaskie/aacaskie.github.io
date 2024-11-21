@@ -26,7 +26,7 @@ a {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  display: none;
+  display: block;
 }
 .imgText {
   color:#b0b0b0;
@@ -119,3 +119,4 @@ a {
     margin-right: 3%;
   }
 }
+
