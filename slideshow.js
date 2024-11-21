@@ -1,5 +1,6 @@
 let slideIndex = 1;
 showSlides(slideIndex);
+console.log("to start");
 
 // Next/previous controls
 function plusSlides(n) {
