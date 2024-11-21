@@ -27,10 +27,11 @@ a {
 }
 .gslides img {
 
-  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
   object-fit: contain;
   display: block;
-  
+  top: 50%;
   max-width: 100%;
 }
 .imgText {
