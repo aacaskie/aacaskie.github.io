@@ -46,7 +46,7 @@ function showSlides(n) {
       slides[i].style.display = "none";
   }
    slides[n -1].style.display = "block";
- console.log(n - 1);
+   console.log(n - 1);
 }
 /* include html*/
 function includeHTML() {
