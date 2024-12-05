@@ -21,7 +21,7 @@ a {
   width: 70vw;
 }
 .centered{
-  text-align: center;
+  top: 50%;
 }
 .slides img {
   display: block;
@@ -34,7 +34,7 @@ a {
   margin-right: auto;
   object-fit: contain;
   display: block;
-  top: 50%;
+  
   max-width: 100%;
 }
 .imgText {
