@@ -20,6 +20,9 @@ a {
   height: 60vh;
   width: 70vw;
 }
+.centered{
+  text-align: center;
+}
 .slides img {
   display: block;
   width: 50%;
