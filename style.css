@@ -40,10 +40,15 @@ a {
 }
 .gslides iframe {
   position: relative;
-  
+  height: 70vh;
+  width: 70vw;
+  top: 5vh;
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
+  object-fit: scale-down;
+  display: block;
+  max-height: 100%;
+  max-width: 100%;
   display: block;
 }
 
