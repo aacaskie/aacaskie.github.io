@@ -39,6 +39,7 @@ a {
   max-width: 100%;
 }
 .imgText {
+  margin-top: 5vh;
   color:#b0b0b0;
   font-family: Times, serif;
   font-size: 0.5em;
