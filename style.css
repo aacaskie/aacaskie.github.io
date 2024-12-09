@@ -140,8 +140,69 @@ p {
 
 .show {display:block;}
 /* media query*/
-@media and (max-width: 800px){
-  body{
+@media (max-width: 800px){
+  .gallery{
     background-color: blue;
+    flex-direction: column;
+    display:flex;
+    align-items: center;
+    height: 100%;
+    width: 90vw;
+    align-items: center;
+    justify-content: center;
   }
+  .my_container {
+  display: flex;
+  flex-direction: row;
+  height: 10vh;
+  margin-bottom: 5vh;
+}
+  body {
+  font-family: Calibri, sans-serif;
+  font-size: 4vw;
+}
+a {
+  font-family: Calibri, sans-serif;
+  font-size: 4vw;
+  text-decoration: none;
+  color: black;
+}
+  .name {
+  margin-left: 2%;
+  margin-right: 10%;
+  cursor: pointer;
+}
+  .box {
+  margin-right: 1%;
+  cursor: pointer;
+}
+  .dropbtn {
+  font-family: Calibri, sans-serif;
+  border: none;
+  font-size: 4vw;
+  background: none;
+  cursor: pointer;
+}
+  .prev, .next {
+  display: none;
+}
+  .gslides img {
+  position: relative;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  max-height: 700px;
+  max-width: 700px;
+  margin-bottom: 0;
+  object-fit: contain;
+}
+  .imgText {
+  position: relative;
+  margin-top: 10vh;
+  color:#b0b0b0;
+  font-family:Calibri, sans-serif;
+  font-size: 0.75em;
+  line-height: 1em;
+  text-align: center;
+}
 }
