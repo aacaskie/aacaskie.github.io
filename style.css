@@ -196,6 +196,14 @@ a {
   margin-bottom: 0;
   object-fit: contain;
 }
+  .gslides iframe {
+  position: relative;
+  padding-top: 3vh;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: block;
+}
   .imgText {
   position: relative;
   margin-top: 10vh;
