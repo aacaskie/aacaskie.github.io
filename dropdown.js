@@ -47,7 +47,7 @@ function showSlides(n) {
   if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
   
-  mv = window.matchMedia( "(max-width: 800px)" );
+  mv = window.matchMedia( "(orientation: portrait)" );
   if (mv.matches) {
     console.log("small");
     for (i = 0; i < slides.length; i++) {
