@@ -140,9 +140,8 @@ p {
 
 .show {display:block;}
 /* media query*/
-@media (max-width: 800px){
+@media (orientation: portrait){
   .gallery{
-    background-color: blue;
     flex-direction: column;
     display:flex;
     align-items: center;
