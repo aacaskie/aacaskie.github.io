@@ -140,3 +140,8 @@ p {
 
 .show {display:block;}
 /* media query*/
+@media and (max-width: 800px){
+  body{
+    background-color: blue;
+  }
+}
