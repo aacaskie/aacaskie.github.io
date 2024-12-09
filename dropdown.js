@@ -1,7 +1,7 @@
 /* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */
 let slideIndex;
-
+let mv;
 document.addEventListener("DOMContentLoaded", function() {
  slideIndex = 1;
  showSlides(slideIndex);
@@ -46,12 +46,28 @@ function showSlides(n) {
   let slides = document.getElementsByClassName("gslides");
   if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
+  
+  mv = window.matchMedia( "(max-width: 800px)" );
+  if (mv.matches) {
+    console.log("small");
+    for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "block";
+  }
+}
+else {
+    console.log("large");
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
    slides[slideIndex -1].style.display = "block";
-   console.log(slideIndex - 1);
 }
+}
+
+function resizeCheck() {
+  showSlides(slideIndex);
+  console.log("resize");
+}
+window.onresize = resizeCheck;
 /* include html*/
 function includeHTML() {
   var z, i, elmnt, file, xhttp;
