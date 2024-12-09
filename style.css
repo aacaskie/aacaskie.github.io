@@ -42,7 +42,7 @@ a {
 }
 .gslides iframe {
   position: relative;
-  padding-top: calc(50% - 315px/2);
+  padding-top: 25vh;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
