@@ -12,15 +12,17 @@ a {
   display: flex;
   flex-direction: row;
   height: 10vh;
-  margin-bottom: 4vh;
+  margin-bottom: 10vh;
 }
 .gallery {
   margin: auto;
-  position: relative;
-  height: 80vh;
-  width: 80vw;
+  
+  height: 70vh;
+  width: 70vw;
 }
-
+.centered{
+  top: 50%;
+}
 .slides img {
   display: block;
   width: 50%;
@@ -28,8 +30,8 @@ a {
 }
 .gslides img {
   position: relative;
-  height: 70vh;
-  width: 70vw;
+  height: 60vh;
+  width: 60vw;
   top: 5vh;
   margin-left: auto;
   margin-right: auto;
@@ -39,7 +41,7 @@ a {
   max-width: 100%;
 }
 .gslides iframe {
-   position: relative;
+  position: relative;
   padding-top: 20vh;
   margin-left: auto;
   margin-right: auto;
@@ -48,19 +50,21 @@ a {
 }
 
 .imgText {
+  position: relative;
   margin-top: 5vh;
   color:#b0b0b0;
   font-family:Calibri, sans-serif;
   font-size: 0.75em;
-  line-height: 1em;
+  line-height: 0.5em;
   text-align: center;
 
 }
 p {
+  position: relative;
   width: 60vw;
-   margin-left: auto;
+  margin-left: auto;
   margin-right: auto;
-  color:#b0b0b0;
+  color:green;
   font-family:Calibri, sans-serif;
   text-align: left;
   line-height: 1em;
@@ -96,9 +100,12 @@ p {
 }
 .prev {
   left: 0;
+  margin-left: 10vw;
 }
 .next {
   right: 0;
+  margin-right: 10vw;
+
 }
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
@@ -133,5 +140,3 @@ p {
 
 .show {display:block;}
 /* media query*/
-
-
